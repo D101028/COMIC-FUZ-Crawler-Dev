@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Debugger Click Simulator",
+  "version": "1.0",
+  "permissions": [
+    "<all_urls>",
+    "debugger",
+    "activeTab", 
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
