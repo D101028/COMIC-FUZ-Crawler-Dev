@@ -127,7 +127,7 @@ const main = async () => {
     // 換頁、截圖主迴圈
     let cnt = 1;
     while (true) {
-      await sleep(1500);
+      await sleep(3000);
       // 截圖
       const tail = `${cnt}`.padStart(3, "0");
       captureTab(`${epTitle}_${tail}.png`);
